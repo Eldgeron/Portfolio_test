@@ -1,0 +1,40 @@
+header {
+	min-height: 100vh;
+	height: 100vh;
+	background: url("https://images.unsplash.com/photo-1500440853933-3796d0182c96?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=03c932e3792f6dfd8713571f274f83f4&auto=format&fit=crop&w=1567&q=80") no-repeat center top;
+	background-size: cover;
+	color: #fff;
+}
+.logo-nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 48px;
+	background-color: rgba(0,0,0,0.3);
+}
+.logo a {
+	font-size: 1.5em;
+	line-height: 72px;
+	color: #fff;
+	text-decoration: none;
+}
+nav a {
+	font-size: 1em;
+	line-height: 72px;
+	color: #fff;
+	text-decoration: none;
+}
+.title-wrp {
+	height: calc(100% - 72px);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.title-wrp .title {
+	display: flex;
+	justify-content: center;
+}
+.title {
+	font-size: 3em;
+	line-height: 1em;
+	text-transform: uppercase;
+}
